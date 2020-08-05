@@ -1,3 +1,74 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    /* background-color: rgb(106, 109, 101); */
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    margin: 0 auto;
+    width: 102.4rem;
+}
+header {
+    height: 11.8rem;
+    text-align: center;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 4rem;
+    text-align: center;
+}
+main {
+    height: 40rem;
+    padding: 8rem 24rem 0 24rem ;
+    text-align: center;
+}
+footer {
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-bottom: 5rem;
+}
 h1 {
-    color: blueviolet;
+    font-size: 8.4rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+}
+p {
+    font-size: 1.8rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+main a {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+a {
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer p {
+    font-size: 1rem;
+    line-height: 10rem;
+    color: grey;
+}
+section.map {
+    padding-bottom: 10rem;
+    width: 50rem;
 }
